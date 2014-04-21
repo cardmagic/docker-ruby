@@ -6,5 +6,5 @@ RUN apt-get update -qq -y && \
     apt-get install curl -qq -y && \
     apt-get clean
 
-RUN curl -sSL https://get.rvm.io | bash -s stable --ruby=1.8.7 --rails
+RUN curl -sSL https://get.rvm.io | bash -s stable --ruby=1.9.1 --rails
 RUN rvm user root
